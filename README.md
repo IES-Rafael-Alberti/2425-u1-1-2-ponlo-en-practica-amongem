@@ -12,69 +12,135 @@ Apoyate en los siguientes recursos para realizar la práctica:
 # Título de la Actividad
 
 ## Identificación de la Actividad
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
-- **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
-- **Fecha de Creación:** [Fecha de creación]
-- **Fecha de Entrega:** [Fecha de entrega]
+- **ID de la Actividad:** P1.11 Elementos de Desarrollo
+- **Módulo:** EDES
+- **Unidad de Trabajo:** U1: Introducción al desarrollo de software
+- **Fecha de Creación:** 21-10-2024
+- **Fecha de Entrega:** 24-10-2024 (requerió rehacerlo)
 - **Alumno(s):** 
-  - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-  - **Correo electrónico:** [Correo electrónico g.educaand.es]
-  - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
+  - **Nombre y Apellidos:** Antonio José Monge Monge
+  - **Correo electrónico:** amonmon0206@g.educaand.es
+  - **Iniciales del Alumno/Grupo:** AMM
 
 ## Descripción de la Actividad
-[Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
+Los objetivos de esta actividad son de primeras, realizar un mismo programa con 3 lenguajes de programación diferentes y ver lo aprendido en el anterior punto. Aplicando uso de distintas herramientas.
 
 ## Instrucciones de Compilación y Ejecución
 1. **Requisitos Previos:**
-   - [Lenguaje de programación y versión]
-   - [Entorno de desarrollo o dependencias necesarias]
+   - Python, C y Java
+   - Visual Studio Code
 
 2. **Pasos para Compilar el Código:**
-   ```bash
-   [Comando para compilar el código]
-   ```
+   - Para compilar en C:
+   gcc saludo.c o-saludo
+
+   - Para compilar en Java:
+   javac saludo.java
+   
 
 3. **Pasos para Ejecutar el Código:**
-   ```bash
-   [Comando para ejecutar la aplicación]
-   ```
+   - Para ejecutar en Python:
+   python3 saludo.py
+   
+   - Para ejecutar en C:
+   ./saludo
 
-4. **Ejecución de Pruebas:**
-   ```bash
-   [Comandos para ejecutar pruebas, si las hubiera]
+   - Para ejecutar en Java:
+   java saludo
+
    ```
 
 ## Desarrollo de la Actividad
 ### Descripción del Desarrollo
-[Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
+En el programa de python, no tuve problemas ya que es lo que más controlo porque es lo que hemos estando viendo en clase.
+
+Ahora si que es verdad que para los demás si que los tuve que buscar por ahí, ya que es la primera que toco algo de esos códigos. Tras muchos tutoriales de indios por YT, no llegué a mucho ya que lo sobrecomplicaban. Opté por preguntarle a un amigo y estuvimos por discord y ahí conseguimos sacarlo, más o menos diría yo. 
 
 ### Código Fuente
-[Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
+- `src/saludo.py`
+- `src/saludo.c`
+- `src/saludo.java` 
 
 ### Ejemplos de Ejecución
 - **Entrada 1:** Descripción de la entrada y valor de prueba.
 - **Salida Esperada 1:** Explicación de la salida esperada y el resultado de la prueba.
 
-### Resultados de Pruebas
-[Aquí se detallará cómo se ha verificado la funcionalidad del código, incluyendo resultados de pruebas automatizadas o manuales, en caso de que las haya.]
-
-## Documentación Adicional
-- **Manual de Usuario:** [Enlace a la documentación del usuario, si existe]
-- **Autorización de Permisos:** Verificar que el profesor tenga permisos de lectura en el repositorio para revisar el código.
-
-## Conclusiones
-[Resumen de las conclusiones alcanzadas al desarrollar la actividad, las lecciones aprendidas, y posibles mejoras que se puedan implementar en futuras entregas.]
-
 ## Referencias y Fuentes
-[Aquí se listarán las fuentes consultadas para el desarrollo de la actividad, tales como documentación oficial, artículos, o cualquier recurso externo relevante.]
+mi colega Álvaro, que también se está sacando el GS de DAW. Un saludo para él.
 
-### Notas Adicionales:
-1. **Nombres de Archivos y Repositorios:**
-   - Asegúrate de que el nombre del archivo o repositorio siga la estructura definida: `XXX-idActividad-Iniciales`.
-2. **Permisos:**
-   - Verifica que el profesor tenga los permisos necesarios para acceder al repositorio o documento.
-3. **Formato:**
-   - Si se entrega en formato PDF o Google Docs, asegúrate de cumplir con el mínimo y máximo de folios establecidos.
-4. **Compilación y Ejecución:**
-   - Detalla claramente cómo compilar y ejecutar el código, incluyendo las instrucciones en el archivo `README.md`.
+## 5.1. Criterio de Evaluación 1.a: Relación entre Software y Hardware¶
+
+Respuesta: 
+
+La ejecución se ha llevado tal que así:
+
+- En la memoria RAM: El código fuente se carga en la memoria RAM para ejecutarse. Este almacena todas las variables y datos durante la ejecución y las intrucciones se procesan.
+
+- El procesador: Ejecuta las instrucciones del código, en el caso de lenguaje compilado, este se ejecuta directo en el procesador, mientras que para los interpretados las líneas van una por una.
+
+- Periféricos: La pantalla se usó para mostrar la salida, que son enviadas por los propios programas. 
+
+## 5.2. Criterio de Evaluación 1.c: Diferenciación entre Código Fuente, Código Objeto y Ejecutable¶
+
+Respuesta:
+
+- En Python: No generó código objeto ni ejecutable, el intérprete ejecuta el código fuente directamente como ya vimos.
+- En C: El código fuente se compila y luego se vuelve ejecutable.
+- En Java: Se compila en bytecode, y se ejecuta por la JVM.
+
+## 5.3. Criterio de Evaluación 1.d: Generación de Código Intermedio para Máquinas Virtuales¶
+
+Respuesta: 
+
+- Java: Compila a bytecode, ejecutado por JVM, que convierte el bytecode a instrucciones específicas del sistema en el tiempo de ejecución.
+
+
+## 5.4. Criterio de Evaluación 1.e: Clasificación de Lenguajes de Programación¶
+
+Respuesta: 
+
+- C: Compilado, bajo nivel, imperativo.
+- Python: Interpretado, alto nivel, imperativo/funcional.
+- Java: Máquina virtual, alto nivel, orientado a objetos.
+
+ **Características:**
+   - C es un lenguaje compilado de bajo nivel, que ofrece control sobre los recursos del sistema.
+   - Python, como lenguaje interpretado de alto nivel, facilita el   desarrollo rápido y la legibilidad.
+   - Java utiliza bytecode y es orientado a objetos, proporcionando portabilidad y gestión automática de memoria.
+
+## 5.5. Criterio de Evaluación 1.f: Evaluación de Herramientas Utilizadas en el Desarrollo¶
+
+C:
+
+    Sistema operativo: Linux
+    Editor: Visual Studio Code
+    Compilador: GCC (gcc)
+    Depurador: GDB (usado para depurar errores y seguir el flujo del programa)
+    Gestión de versiones: Git (se utilizó para controlar versiones del código)
+
+Python:
+
+    Sistema operativo: Linux
+    Editor: Visual Studio Code
+    Intérprete: Python 3 (python3)
+    Depurador: No se usó depurador específico, solo print statements para errores simples.
+    Gestión de versiones: Git
+
+Java:
+
+    Sistema operativo: Linux
+    Editor: Visual Studio Code
+    Compilador: Javac (javac)
+    Depurador: No se usó depurador, solo print statements.
+    Gestión de versiones: Git
+
+
+## 7. Conclusión Final¶
+
+Esta actividad ha servido para poner en práctica la teoría que vimos acerca de los distintos tipos de lenguajes. Teniendo así un primer vistazo a C y Java, como es mi caso. Me han parecido un giro de 180º, pero tengo curiosidad en seguir trasteando con ellos y ver de verdad como sería hacer programas tochos con ellos. 
+
+He notado el proceso de ejecución, por muy poco programa que fuese, pero hay diferencia aún así.
+
+
+
+
